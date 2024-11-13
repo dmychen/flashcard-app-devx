@@ -16,7 +16,7 @@ app.listen(port, () => {
 });
 
 route.get('/simple-get', (req, res) => {
-  res.send("here");
+  res.send("Hello!!");
 });
 
 route.get('/dynamic-get/:text', (req, res) => {
